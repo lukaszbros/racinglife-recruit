@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+}
+
+#menu {
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
