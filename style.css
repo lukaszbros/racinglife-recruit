@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font: 12px Arial, Tahoma, Sans;
+	color: #111;
+}
+#content {
+	margin: 10px 0 0 220px;
+}
+#menu {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 200px;
+	background: #eee;
+	list-style-type: none;
+}
+#menu li.active a {
+	background: #000;
+	color: #fff;
+}
+#menu li a {
+	display: block;
+	padding: 7px 15px;
+	color: #333;
+}
